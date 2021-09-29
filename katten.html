@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Katten - Dierenarts.nl</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,100;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+
+<body>
+    <header class="w-full t-w-auto bg-blue flex justify-center relative pt-05 pb-05 t-justify-between t-plr-1">
+        <button type="button" class="Material-icons text-white absolute top-15 left-0 text-2em pointer t-hidden">
+            menu_open
+        </button>
+        <a class="t-justify-between text-white self-center text-bold text-2em no-deco pointer"
+            title="dierenarts.nl" href="index.html" target="_self">Dierenarts.nl</a>
+        <nav class="hidden t-flex">
+            <ul class="flex">
+                <li class="t-plr-1">
+                    <a class="text-white no-deco hover:text-red text-bold" href="katten.html" title="katten" target="_self">
+                        Katten
+                    </a>
+                </li>
+                <li class="t-plr-1">
+                    <a class="text-white no-deco hover:text-red text-bold" href="honden.html" title="honden" target="_self">
+                        Honden
+                    </a>
+                </li>
+                <li class="t-plr-1">
+                    <a class="text-white no-deco hover:text-red text-bold" href="honden.html" title="prijzen" target="_self">
+                        Prijzen
+                    </a>
+                </li>
+                <li class="t-plr-1">
+                    <a class="text-white no-deco hover:text-red text-bold" href="contact.html" title="contact" target="_self">
+                        Contact
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="grid grid-main-template">
+            <section class="" data-grid-id="start">
+                <div class="grid main-fraction">
+                    <img class="grid-full w-full d-top-500" alt="dierenarts" src="assets/images/home-dierenarts-image.webp" />
+                    <h1 class="grid-middle">Alles over de kat</h1>
+                    <p class="grid-middle">Op een normale website zou je hier waarschijnlijk heel veel over de kat
+                        vinden. Maar dat beperken we op deze website. Dus wat gaan we doen? allemaal plaatjes in grid
+                        met column-gap & 2 buttons naast elkaar. spoiler alert, de prijzen staan bij de honden pagina ;)
+                    </p>
+                </div>
+            </section>
+            <section data-grid-id="content">
+                <div class="grid main-fraction">
+                    <div class="grid-middle">
+                        <div class="grid image-layout t-image-layout-2 d-image-layout-3">
+                            <img alt="kat1" src="assets/images/kat-1.webp" class="column-1 m-auto" />
+                            <img alt="kat2" src="assets/images/kat-2.webp"
+                                class="column-1 t-column-2 d-column-2  m-auto" />
+                            <img alt="kat3" src="assets/images/kat-3.webp" class="column-1 d-column-3 m-auto" />
+                            <img alt="kat4" src="assets/images/kat-4.webp"
+                                class="column-1 t-column-2 d-column-1  m-auto" />
+                            <img alt="kat5" src="assets/images/kat-5.webp" class="column-1 d-column-2 m-auto" />
+                            <img alt="kat6" src="assets/images/kat-6.webp"
+                                class="column-1 t-column-2 d-column-3  m-auto" />
+                        </div>
+                    </div>
+                </div>
+                <div class="grid-middle mt-2">
+                    <div class="flex justify-around">
+                        <a class="text-bold text-11em pointer no-deco bg-green border-green text-white radius-5 pt-05 pb-05 pl-1 pr-1"
+                            href="contact.html" title="contact">Contact</a>
+                        <a class="text-bold text-11em pointer no-deco bg-white border-green text-green radius-5 pt-05 pb-05 pl-1 pr-1"
+                            href="honden.html" title="prijzen">prijzen</a>
+                    </div>
+                </div>
+
+            </section>
+            <footer data-grid-id="footer" class="text-white w-full bg-blue flex justify-center mt-2 pt-05 pb-05">
+                <a class="text-white self-center text-bold text-2em no-deco pointer" title="dierenarts.nl"
+                    href="index.html" target="_self">Dierenarts.nl</a>
+            </footer>
+        </div>
+    </main>
+</body>
+
+</html>
